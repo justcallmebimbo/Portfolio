@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+ }
+ h1{
+    font-weight: 200;
+ }
+ p{
+    font-weight: 200;
+    font-size: 11px;
+ }
+ h2,h3{
+    color: hsl(234, 12%, 34%);
+ }
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+body{
+    font-size: 15px;
+    background-image: url(/images/favicon-32x32.png);
+    background-size: 100px;
+    color: hsl(229, 6%, 66%);
+}
+.container{
+    margin: 50px;
+    padding: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+.topmost{
+    text-align: center;
+}
+.ten{
+    margin: 10px;
+    width: 300px;
+    padding: 10px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+img{
+    display: flex;
+    position: relative;
+    left: 200px;
+}
+.red{
+    border-top:2px solid hsl(0, 78%, 62%);
+    box-shadow: 5px 5px 12px hsl(229, 6%, 66%);
+    border-radius: 5px;
+}
+.blue{
+    border-top: 2px solid hsl(212,86%, 64%);
+    box-shadow: 5px 5px 12px hsl(229, 6%, 66%);
+    border-radius: 5px;
+}
+.orange{
+    border-top:2px solid hsl(34,97%,64%);
+    box-shadow: 5px 5px 12px hsl(229, 6%, 66%);
+    border-radius: 5px;
+}
+.cyan{
+    border-top: 2px solid hsl(180, 62%,55%);
+    box-shadow: 5px 5px 12px hsl(229, 6%, 66%);
+    border-radius: 5px;
+}
